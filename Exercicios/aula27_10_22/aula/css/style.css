@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: 'dangernight';
+    src: url('../fonts/DangerNight.otf') format('opentype'),
+    url('../fonts/DangerNight.ttf') format('truetype');
+}
+.padrao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.fgoogle{
+    font-family: 'Pacifico', cursive;
+}
+
+.ffile{
+    font-family: 'dangernight', serif;
+}
+.cxPrincipal{
+    /*width: 300px;
+    height: 100px;
+    background-color: lightcoral;
+    border-color: aqua;
+    border-width: 5px;
+    border-style: solid;
+    border: 7px dashed red;    
+    outline-color: rgb(123, 255, 0);
+    outline-width: 10px;
+    outline-style: solid;
+    margin: 40px;*/
+}
+
+header{
+    /*padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;*/
+
+    /*padding: 20px 40px;
+    margin: auto;
+    width: 366px;*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 18px;
+    box-shadow: 2px 3px 5px 0px #00000059;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main{
+
+}
+
+article{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 18px;
+    box-shadow: 2px 3px 5px 0px #00000059;
+}
+nav>a{
+    text-decoration: none;
+}
+nav>a:hover{
+    text-decoration: underline;
+}
+nav>a:active{
+    color:darkgray;
+}
+nav>a:visited{
+    color:#0000ee;
+}
+
+#id1 , #id2, #id3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 2px;
+}
+
+#id1:hover{
+    background-color: blueviolet;
+}
+
+#id2:hover{
+    background-color: rgb(43, 128, 226);
+}
+#id3:hover{
+    background-color: rgb(43, 226, 46);
+}
+
+#id1:active{
+    background-color: brown;
+}
+#id1>p{
+    display: none;
+}
+
+#id1:active >p{
+    display: block;
+}
+
+a[target=_blank]::after{
+    content: '\262F';
+}
+
+footer{
+    background-color: dimgrey;
+    padding: 2px 10px;
+}
+
